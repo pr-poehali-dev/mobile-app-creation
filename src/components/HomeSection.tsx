@@ -16,7 +16,7 @@ const HomeSection = ({ setActiveSection, setSelectedCategory }: HomeSectionProps
             <img 
               src="https://cdn.poehali.dev/files/6230c702-e04e-4d48-902d-663e4ca078f4.jpeg" 
               alt="Apple Like Logo" 
-              className="h-20 w-20 object-contain animate-fade-in"
+              className="h-20 w-20 object-contain animate-fade-in hover:scale-110 hover:rotate-12 transition-transform duration-300 cursor-pointer"
             />
             <h1 className="text-6xl md:text-7xl font-bold tracking-tight animate-fade-in">
               Apple Like
