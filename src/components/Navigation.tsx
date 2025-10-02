@@ -29,9 +29,9 @@ const Navigation = ({
         <div className="flex justify-between items-center h-16">
           <div className="flex items-center space-x-3">
             <img 
-              src="https://web.telegram.org/6cb4ed7f-ef65-423e-8003-959d694a2f50" 
+              src="https://cdn.poehali.dev/files/6230c702-e04e-4d48-902d-663e4ca078f4.jpeg" 
               alt="Logo" 
-              className="h-8 w-auto"
+              className="h-8 w-8 object-contain"
             />
             <span className="text-xl font-semibold">Accessories</span>
           </div>
