@@ -27,8 +27,12 @@ const Navigation = ({
     <nav className="fixed top-0 w-full bg-white/80 backdrop-blur-xl border-b border-gray-200 z-50">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-16">
-          <div className="flex items-center space-x-2">
-            <Icon name="Apple" size={24} className="text-black" />
+          <div className="flex items-center space-x-3">
+            <img 
+              src="https://web.telegram.org/6cb4ed7f-ef65-423e-8003-959d694a2f50" 
+              alt="Logo" 
+              className="h-8 w-auto"
+            />
             <span className="text-xl font-semibold">Accessories</span>
           </div>
 
