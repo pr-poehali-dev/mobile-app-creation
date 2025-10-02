@@ -29,7 +29,7 @@ const Navigation = ({
         <div className="flex justify-between items-center h-16">
           <div className="flex items-center space-x-3">
             <img 
-              src="https://cdn.poehali.dev/files/18687444-4a73-489e-a294-6a9b112dbf1a.png" 
+              src="/img/c5d2bb9e-4c62-41b3-ae7b-81a004682137.jpg" 
               alt="Logo" 
               className="h-8 w-8 object-contain"
             />

@@ -14,7 +14,7 @@ const HomeSection = ({ setActiveSection, setSelectedCategory }: HomeSectionProps
         <div className="text-center px-4">
           <div className="flex items-center justify-center space-x-4 mb-8">
             <img 
-              src="https://cdn.poehali.dev/files/18687444-4a73-489e-a294-6a9b112dbf1a.png" 
+              src="/img/c5d2bb9e-4c62-41b3-ae7b-81a004682137.jpg" 
               alt="Apple Like Logo" 
               className="h-20 w-20 object-contain animate-fade-in hover:scale-110 hover:rotate-12 transition-transform duration-300 cursor-pointer"
             />
