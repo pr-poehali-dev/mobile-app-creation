@@ -114,7 +114,7 @@ const HomeSection = ({ setActiveSection, setSelectedCategory }: HomeSectionProps
             </div>
             <CardContent className="p-6 text-center">
               <h3 className="text-2xl font-bold mb-2">MagSafe</h3>
-              <p className="text-gray-600">Магнитные зарядки и аккумуляторы для iPhone</p>
+              <p className="text-gray-600">Магнитные зарядки для iPhone</p>
             </CardContent>
           </Card>
 
