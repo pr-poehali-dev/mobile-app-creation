@@ -46,7 +46,11 @@ const CatalogSection = ({
                   <SelectItem value="all">Все категории</SelectItem>
                   <SelectItem value="iphone">iPhone</SelectItem>
                   <SelectItem value="case">Чехлы</SelectItem>
+                  <SelectItem value="glass">Защитные стёкла</SelectItem>
                   <SelectItem value="airpods">AirPods</SelectItem>
+                  <SelectItem value="battery">Батареи</SelectItem>
+                  <SelectItem value="charger">Блоки питания</SelectItem>
+                  <SelectItem value="cable">Провода</SelectItem>
                   <SelectItem value="magsafe">MagSafe</SelectItem>
                 </SelectContent>
               </Select>
@@ -71,12 +75,12 @@ const CatalogSection = ({
 
             <div>
               <label className="text-sm text-gray-600 mb-2 block">
-                Цена: {priceRange[0]} € - {priceRange[1]} €
+                Цена: {priceRange[0]} ₽ - {priceRange[1]} ₽
               </label>
               <Slider
                 min={0}
-                max={2000}
-                step={10}
+                max={150000}
+                step={500}
                 value={priceRange}
                 onValueChange={setPriceRange}
                 className="mt-2"
@@ -89,7 +93,7 @@ const CatalogSection = ({
               onClick={() => {
                 setSelectedCategory('all');
                 setSelectedModel('all');
-                setPriceRange([0, 2000]);
+                setPriceRange([0, 150000]);
               }}
             >
               Сбросить фильтры
@@ -111,7 +115,7 @@ const CatalogSection = ({
                 <h3 className="font-semibold text-lg mb-2">{product.name}</h3>
                 <p className="text-sm text-gray-600 mb-4">{product.description}</p>
                 <div className="flex items-center justify-between">
-                  <span className="text-2xl font-bold">{product.price} €</span>
+                  <span className="text-2xl font-bold">{product.price} ₽</span>
                   <Button
                     onClick={() => addToCart(product)}
                     size="sm"

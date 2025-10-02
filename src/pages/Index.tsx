@@ -11,7 +11,7 @@ const Index = () => {
   const [cart, setCart] = useState<CartItem[]>([]);
   const [selectedCategory, setSelectedCategory] = useState<string>('all');
   const [selectedModel, setSelectedModel] = useState<string>('all');
-  const [priceRange, setPriceRange] = useState<number[]>([0, 2000]);
+  const [priceRange, setPriceRange] = useState<number[]>([0, 150000]);
   const [activeSection, setActiveSection] = useState<string>('home');
 
   const addToCart = (product: Product) => {

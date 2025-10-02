@@ -31,7 +31,7 @@ const Navigation = ({
             <img 
               src="https://cdn.poehali.dev/files/18687444-4a73-489e-a294-6a9b112dbf1a.png" 
               alt="Logo" 
-              className="h-8 w-8 object-contain"
+              className="h-8 w-8 object-contain bg-white rounded-lg p-1"
             />
             <span className="text-xl font-semibold">Apple Like</span>
           </div>
@@ -108,7 +108,7 @@ const Navigation = ({
                         />
                         <div className="flex-1">
                           <h3 className="font-medium">{item.product.name}</h3>
-                          <p className="text-sm text-gray-500">{item.product.price} €</p>
+                          <p className="text-sm text-gray-500">{item.product.price} ₽</p>
                           <div className="flex items-center gap-2 mt-2">
                             <Button
                               variant="outline"
@@ -141,7 +141,7 @@ const Navigation = ({
                     <div className="pt-4 border-t">
                       <div className="flex justify-between text-lg font-semibold mb-4">
                         <span>Итого:</span>
-                        <span>{cartTotal} €</span>
+                        <span>{cartTotal} ₽</span>
                       </div>
                       <Button className="w-full bg-black hover:bg-gray-800 text-white">
                         Оформить заказ
