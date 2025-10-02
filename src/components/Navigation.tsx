@@ -33,7 +33,7 @@ const Navigation = ({
               alt="Logo" 
               className="h-8 w-8 object-contain"
             />
-            <span className="text-xl font-semibold">Accessories</span>
+            <span className="text-xl font-semibold">Apple Like</span>
           </div>
 
           <div className="hidden md:flex space-x-8">
