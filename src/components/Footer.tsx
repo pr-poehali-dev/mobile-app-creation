@@ -5,7 +5,7 @@ const Footer = () => {
         <div className="flex flex-col items-center justify-center space-y-4">
           <div className="flex items-center space-x-3">
             <img 
-              src="/img/c5d2bb9e-4c62-41b3-ae7b-81a004682137.jpg" 
+              src="https://cdn.poehali.dev/files/18687444-4a73-489e-a294-6a9b112dbf1a.png" 
               alt="Apple Like Logo" 
               className="h-8 w-8 object-contain"
             />
