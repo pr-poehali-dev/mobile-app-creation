@@ -12,9 +12,16 @@ const HomeSection = ({ setActiveSection, setSelectedCategory }: HomeSectionProps
     <>
       <section className="relative h-[600px] bg-gradient-to-b from-gray-50 to-white flex items-center justify-center fade-in">
         <div className="text-center px-4">
-          <h1 className="text-6xl md:text-7xl font-bold mb-6 tracking-tight">
-            Аксессуары Apple
-          </h1>
+          <div className="flex items-center justify-center space-x-4 mb-8">
+            <img 
+              src="https://cdn.poehali.dev/files/6230c702-e04e-4d48-902d-663e4ca078f4.jpeg" 
+              alt="Apple Like Logo" 
+              className="h-20 w-20 object-contain"
+            />
+            <h1 className="text-6xl md:text-7xl font-bold tracking-tight">
+              Apple Like
+            </h1>
+          </div>
           <p className="text-xl text-gray-600 mb-8 max-w-2xl mx-auto">
             Премиальные аксессуары для вашего iPhone. Качество и стиль в каждой детали.
           </p>
