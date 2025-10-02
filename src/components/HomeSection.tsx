@@ -37,7 +37,7 @@ const HomeSection = ({ setActiveSection, setSelectedCategory }: HomeSectionProps
 
       <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20">
         <h2 className="text-4xl font-bold mb-12 text-center">Категории товаров</h2>
-        <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
           <Card
             className="group cursor-pointer overflow-hidden hover-scale border-2 hover:border-black transition-all duration-300"
             onClick={() => {
@@ -115,6 +115,86 @@ const HomeSection = ({ setActiveSection, setSelectedCategory }: HomeSectionProps
             <CardContent className="p-6 text-center">
               <h3 className="text-2xl font-bold mb-2">MagSafe</h3>
               <p className="text-gray-600">Магнитные зарядки и аккумуляторы для iPhone</p>
+            </CardContent>
+          </Card>
+
+          <Card
+            className="group cursor-pointer overflow-hidden hover-scale border-2 hover:border-black transition-all duration-300"
+            onClick={() => {
+              setSelectedCategory('glass');
+              setActiveSection('catalog');
+            }}
+          >
+            <div className="aspect-square bg-white overflow-hidden">
+              <img 
+                src="/img/e962a9be-5650-47e8-9c6b-a8c8f6c3a8ed.jpg" 
+                alt="Защитные стёкла" 
+                className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
+              />
+            </div>
+            <CardContent className="p-6 text-center">
+              <h3 className="text-2xl font-bold mb-2">Защитные стёкла</h3>
+              <p className="text-gray-600">Надёжная защита экрана и камеры iPhone</p>
+            </CardContent>
+          </Card>
+
+          <Card
+            className="group cursor-pointer overflow-hidden hover-scale border-2 hover:border-black transition-all duration-300"
+            onClick={() => {
+              setSelectedCategory('battery');
+              setActiveSection('catalog');
+            }}
+          >
+            <div className="aspect-square bg-white overflow-hidden">
+              <img 
+                src="/img/31486adb-6d10-456a-aca3-d26877f0fac7.jpg" 
+                alt="Батареи" 
+                className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
+              />
+            </div>
+            <CardContent className="p-6 text-center">
+              <h3 className="text-2xl font-bold mb-2">Батареи</h3>
+              <p className="text-gray-600">Портативные аккумуляторы для подзарядки в пути</p>
+            </CardContent>
+          </Card>
+
+          <Card
+            className="group cursor-pointer overflow-hidden hover-scale border-2 hover:border-black transition-all duration-300"
+            onClick={() => {
+              setSelectedCategory('charger');
+              setActiveSection('catalog');
+            }}
+          >
+            <div className="aspect-square bg-white overflow-hidden">
+              <img 
+                src="/img/31486adb-6d10-456a-aca3-d26877f0fac7.jpg" 
+                alt="Блоки питания" 
+                className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
+              />
+            </div>
+            <CardContent className="p-6 text-center">
+              <h3 className="text-2xl font-bold mb-2">Блоки питания</h3>
+              <p className="text-gray-600">Быстрые зарядные устройства USB-C</p>
+            </CardContent>
+          </Card>
+
+          <Card
+            className="group cursor-pointer overflow-hidden hover-scale border-2 hover:border-black transition-all duration-300"
+            onClick={() => {
+              setSelectedCategory('cable');
+              setActiveSection('catalog');
+            }}
+          >
+            <div className="aspect-square bg-white overflow-hidden">
+              <img 
+                src="/img/bf24009c-9d13-4629-88be-2bf88f11a751.jpg" 
+                alt="Провода" 
+                className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
+              />
+            </div>
+            <CardContent className="p-6 text-center">
+              <h3 className="text-2xl font-bold mb-2">Провода</h3>
+              <p className="text-gray-600">Оригинальные кабели Lightning и USB-C</p>
             </CardContent>
           </Card>
         </div>
