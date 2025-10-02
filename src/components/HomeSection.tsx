@@ -38,8 +38,12 @@ const HomeSection = ({ setActiveSection, setSelectedCategory }: HomeSectionProps
               setActiveSection('catalog');
             }}
           >
-            <div className="aspect-square bg-gradient-to-br from-gray-50 to-gray-100 flex items-center justify-center">
-              <Icon name="Smartphone" size={80} className="text-black group-hover:scale-110 transition-transform duration-300" />
+            <div className="aspect-square bg-white overflow-hidden">
+              <img 
+                src="/img/3516bdb8-6b75-4898-8e39-3d558c447c4d.jpg" 
+                alt="iPhone Cases" 
+                className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
+              />
             </div>
             <CardContent className="p-6 text-center">
               <h3 className="text-2xl font-bold mb-2">Чехлы</h3>
@@ -54,8 +58,12 @@ const HomeSection = ({ setActiveSection, setSelectedCategory }: HomeSectionProps
               setActiveSection('catalog');
             }}
           >
-            <div className="aspect-square bg-gradient-to-br from-gray-50 to-gray-100 flex items-center justify-center">
-              <Icon name="Headphones" size={80} className="text-black group-hover:scale-110 transition-transform duration-300" />
+            <div className="aspect-square bg-white overflow-hidden">
+              <img 
+                src="/img/5adda829-ea3e-4eea-bd01-e7cc694bf6ef.jpg" 
+                alt="AirPods" 
+                className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
+              />
             </div>
             <CardContent className="p-6 text-center">
               <h3 className="text-2xl font-bold mb-2">AirPods</h3>
@@ -70,8 +78,12 @@ const HomeSection = ({ setActiveSection, setSelectedCategory }: HomeSectionProps
               setActiveSection('catalog');
             }}
           >
-            <div className="aspect-square bg-gradient-to-br from-gray-50 to-gray-100 flex items-center justify-center">
-              <Icon name="Zap" size={80} className="text-black group-hover:scale-110 transition-transform duration-300" />
+            <div className="aspect-square bg-white overflow-hidden">
+              <img 
+                src="/img/880f5b35-7a7a-4a31-af97-22cd1a805ff6.jpg" 
+                alt="MagSafe" 
+                className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
+              />
             </div>
             <CardContent className="p-6 text-center">
               <h3 className="text-2xl font-bold mb-2">MagSafe</h3>
