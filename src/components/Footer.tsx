@@ -7,7 +7,7 @@ const Footer = () => {
             <img 
               src="https://cdn.poehali.dev/files/18687444-4a73-489e-a294-6a9b112dbf1a.png" 
               alt="Apple Like Logo" 
-              className="h-8 w-8 object-contain"
+              className="h-8 w-8 object-contain bg-white rounded-lg p-1"
             />
             <span className="text-xl font-semibold text-gray-900">Apple Like</span>
           </div>
