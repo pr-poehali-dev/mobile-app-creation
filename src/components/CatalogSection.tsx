@@ -44,6 +44,7 @@ const CatalogSection = ({
                 </SelectTrigger>
                 <SelectContent>
                   <SelectItem value="all">Все категории</SelectItem>
+                  <SelectItem value="iphone">iPhone</SelectItem>
                   <SelectItem value="case">Чехлы</SelectItem>
                   <SelectItem value="airpods">AirPods</SelectItem>
                   <SelectItem value="magsafe">MagSafe</SelectItem>
@@ -74,7 +75,7 @@ const CatalogSection = ({
               </label>
               <Slider
                 min={0}
-                max={1000}
+                max={2000}
                 step={10}
                 value={priceRange}
                 onValueChange={setPriceRange}
@@ -88,7 +89,7 @@ const CatalogSection = ({
               onClick={() => {
                 setSelectedCategory('all');
                 setSelectedModel('all');
-                setPriceRange([0, 1000]);
+                setPriceRange([0, 2000]);
               }}
             >
               Сбросить фильтры

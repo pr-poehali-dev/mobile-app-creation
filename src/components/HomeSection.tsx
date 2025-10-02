@@ -23,7 +23,7 @@ const HomeSection = ({ setActiveSection, setSelectedCategory }: HomeSectionProps
             </h1>
           </div>
           <p className="text-xl text-gray-600 mb-8 max-w-2xl mx-auto">
-            Премиальные аксессуары для вашего iPhone. Качество и стиль в каждой детали.
+            iPhone и премиальные аксессуары Apple. Качество и стиль в каждой детали.
           </p>
           <Button
             onClick={() => setActiveSection('catalog')}
@@ -37,7 +37,27 @@ const HomeSection = ({ setActiveSection, setSelectedCategory }: HomeSectionProps
 
       <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20">
         <h2 className="text-4xl font-bold mb-12 text-center">Категории товаров</h2>
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+        <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
+          <Card
+            className="group cursor-pointer overflow-hidden hover-scale border-2 hover:border-black transition-all duration-300"
+            onClick={() => {
+              setSelectedCategory('iphone');
+              setActiveSection('catalog');
+            }}
+          >
+            <div className="aspect-square bg-white overflow-hidden">
+              <img 
+                src="/img/21d8523f-2324-456c-9596-d7939a78e621.jpg" 
+                alt="iPhone" 
+                className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
+              />
+            </div>
+            <CardContent className="p-6 text-center">
+              <h3 className="text-2xl font-bold mb-2">iPhone</h3>
+              <p className="text-gray-600">Новейшие модели iPhone с передовыми технологиями</p>
+            </CardContent>
+          </Card>
+
           <Card
             className="group cursor-pointer overflow-hidden hover-scale border-2 hover:border-black transition-all duration-300"
             onClick={() => {

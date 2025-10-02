@@ -162,5 +162,59 @@ export const products: Product[] = [
     model: ['iPhone 12', 'iPhone 13', 'iPhone 14', 'iPhone 15'],
     image: '/img/880f5b35-7a7a-4a31-af97-22cd1a805ff6.jpg',
     description: 'Настольная подставка с беспроводной зарядкой'
+  },
+  {
+    id: 19,
+    name: 'iPhone 15 Pro Max',
+    category: 'iphone',
+    price: 1499,
+    model: ['iPhone 15'],
+    image: '/img/21d8523f-2324-456c-9596-d7939a78e621.jpg',
+    description: 'Флагманский смартфон с титановым корпусом и чипом A17 Pro'
+  },
+  {
+    id: 20,
+    name: 'iPhone 15 Pro',
+    category: 'iphone',
+    price: 1299,
+    model: ['iPhone 15'],
+    image: '/img/21d8523f-2324-456c-9596-d7939a78e621.jpg',
+    description: 'Профессиональный iPhone с тройной камерой'
+  },
+  {
+    id: 21,
+    name: 'iPhone 15',
+    category: 'iphone',
+    price: 999,
+    model: ['iPhone 15'],
+    image: '/img/21d8523f-2324-456c-9596-d7939a78e621.jpg',
+    description: 'Стильный iPhone с динамическим островом'
+  },
+  {
+    id: 22,
+    name: 'iPhone 14 Pro Max',
+    category: 'iphone',
+    price: 1299,
+    model: ['iPhone 14'],
+    image: '/img/21d8523f-2324-456c-9596-d7939a78e621.jpg',
+    description: 'Мощный iPhone с камерой 48 МП'
+  },
+  {
+    id: 23,
+    name: 'iPhone 14',
+    category: 'iphone',
+    price: 899,
+    model: ['iPhone 14'],
+    image: '/img/21d8523f-2324-456c-9596-d7939a78e621.jpg',
+    description: 'Надёжный iPhone с продвинутой камерой'
+  },
+  {
+    id: 24,
+    name: 'iPhone 13',
+    category: 'iphone',
+    price: 749,
+    model: ['iPhone 13'],
+    image: '/img/21d8523f-2324-456c-9596-d7939a78e621.jpg',
+    description: 'Популярный iPhone с отличной производительностью'
   }
 ];
