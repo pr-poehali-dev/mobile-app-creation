@@ -147,7 +147,7 @@ const HomeSection = ({ setActiveSection, setSelectedCategory }: HomeSectionProps
           >
             <div className="aspect-square bg-white overflow-hidden">
               <img 
-                src="/img/31486adb-6d10-456a-aca3-d26877f0fac7.jpg" 
+                src="/img/2304f2a3-f66c-46a2-8abd-6f183686d887.jpg" 
                 alt="Батареи" 
                 className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
               />
